@@ -30,12 +30,9 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
-    ],
+    forcedNavOrder: ['/commands', '/templates'],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      // '/codeblock', // add trailing slash if enabled above
     ],
     links: [{ text: 'Airship LLC', link: 'https://teamairship.com/' }],
     frontline: false,

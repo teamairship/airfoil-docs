@@ -19,6 +19,8 @@ we will need to change Heroku to use Docker. [See here for instructions](https:/
 
 _ORIGINAL DOCS BELOW_
 
+This project was generated from the following Gatsby template: https://github.com/hasura/gatsby-gitbook-starter
+
 # gatsby-gitbook-starter
 
 Kick off your project with this starter to create a powerful/flexible docs/tutorial web apps.

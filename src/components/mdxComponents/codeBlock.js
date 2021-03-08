@@ -24,13 +24,29 @@ const LoadableComponent = Loadable({
   loading: LoadingProvider,
 });
 
+function getLanguage(className) {
+  switch (className) {
+    case 'language-bash':
+      return 'bash';
+    case 'language-javascript':
+      return 'javascript';
+    default:
+      return 'javascript';
+  }
+}
+
 /* eslint-disable react/jsx-key */
 const CodeBlock = ({ children: exampleCode, ...props }) => {
   if (props['react-live']) {
     return <LoadableComponent code={exampleCode} />;
   } else {
     return (
-      <Highlight {...defaultProps} code={exampleCode} language="javascript" theme={prismTheme}>
+      <Highlight
+        {...defaultProps}
+        code={exampleCode}
+        language={getLanguage(props.className)}
+        theme={prismTheme}
+      >
         {({ className, style, tokens, getLineProps, getTokenProps }) => (
           <pre className={className + ' pre'} style={style} p={3}>
             {cleanTokens(tokens).map((line, i) => {
