@@ -23,4 +23,4 @@ RUN npm run build
 
 
 # serve on port 80
-CMD ["gatsby", "serve", "--verbose", "--prefix-paths", "-p", "80", "--host", "0.0.0.0"]
+CMD ["gatsby", "serve", "--verbose", "--prefix-paths", "-p", "80"]

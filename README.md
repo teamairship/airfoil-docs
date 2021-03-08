@@ -12,6 +12,9 @@ In short:
 git push heroku main
 ```
 
+NOTE - the above only works for static sites. If we ever need this app to serve dynamic content, I think
+we will need to change Heroku to use Docker. [See here for instructions](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml).
+
 ---
 
 _ORIGINAL DOCS BELOW_
