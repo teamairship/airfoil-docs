@@ -59,7 +59,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       query headerTitleQuery {
         site {
           siteMetadata {
-            headerTitle
             githubUrl
             helpUrl
             tweetText
@@ -75,20 +74,12 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={data => {
-      const logoImg = require('./images/logo.svg');
-
       const twitter = require('./images/twitter.svg');
-
-      const discordBrandsBlock = require('./images/discord-brands-block.svg');
-
-      const twitterBrandsBlock = require('./images/twitter-brands-block.svg');
-
       const {
         site: {
           siteMetadata: { githubUrl, helpUrl, tweetText, logo, headerLinks },
         },
       } = data;
-
       const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
 
       return (

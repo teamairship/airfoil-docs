@@ -40,7 +40,7 @@ const config = {
     links: [{ text: 'Airship LLC', link: 'https://teamairship.com/' }],
     frontline: false,
     ignoreIndex: true,
-    title: "<a href='/'>airfoil </a><div class='redCircle'></div><a href='/'>cli</a>",
+    title: "<a href='/'>CLI DOCS</a>",
   },
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',

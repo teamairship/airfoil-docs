@@ -2,7 +2,13 @@
 
 Documentation for the [Airfoil CLI](https://github.com/teamairship/airfoil).
 
+## Deployment
+
+This app uses docker + Heroku for deployment. [For more details, see here](https://devcenter.heroku.com/articles/build-docker-images-heroku-yml).
+
 ---
+
+_ORIGINAL DOCS BELOW_
 
 # gatsby-gitbook-starter
 

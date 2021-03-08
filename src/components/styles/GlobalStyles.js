@@ -264,6 +264,7 @@ export const baseStyles = css`
     border: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
     -webkit-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
     -moz-box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.8);
