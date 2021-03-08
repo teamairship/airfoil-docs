@@ -10,8 +10,8 @@ const config = {
     logoLink: '/',
     // title:
     //   "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/teamairship/airfoil',
-    helpUrl: 'https://github.com/teamairship/airfoil/issues',
+    githubUrl: 'https://github.com/teamairship/airfoil-docs',
+    helpUrl: 'https://github.com/teamairship/airfoil-docs/issues',
     tweetText: '',
     social: `<li>
 		    <a href="https://twitter.com/teamairship" target="_blank" rel="noopener">
@@ -46,7 +46,7 @@ const config = {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: null,
-    docsLocation: 'https://github.com/teamairship/airfoil/tree/master/content',
+    docsLocation: 'https://github.com/teamairship/airfoil-docs/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
