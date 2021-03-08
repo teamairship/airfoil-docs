@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from '@emotion/styled';
+import { withTheme } from 'emotion-theming';
 
 import NightImage from './images/night.png';
 import DayImage from './images/day.png';
@@ -57,7 +58,7 @@ const StyledSwitch = styled('div')`
   }
 
   input:checked + .slider {
-    background: linear-gradient(to right, #fefb72, #f0bb31);
+    background: linear-gradient(to right, #e6523c, #db4f39);
   }
 
   input:checked + .slider:before {
@@ -79,7 +80,7 @@ const StyledSwitch = styled('div')`
   }
 `;
 
-export const DarkModeSwitch = ({ isDarkThemeActive, toggleActiveTheme }) => (
+export const DarkModeSwitch = withTheme(({ isDarkThemeActive, toggleActiveTheme }) => (
   <StyledSwitch>
     <label id="switch" className="switch">
       <input
@@ -91,4 +92,4 @@ export const DarkModeSwitch = ({ isDarkThemeActive, toggleActiveTheme }) => (
       <span className="slider round"></span>
     </label>
   </StyledSwitch>
-);
+));

@@ -4,25 +4,46 @@ const baseTheme = {
   },
 };
 
+const commonColors = {
+  red: {
+    '100': '#EA9183',
+    '300': '#E6523C',
+    '400': '#DB4F39',
+    '500': '#B3402E',
+    '700': '#66251B',
+    '900': '#3B2421',
+  },
+  blue: {
+    '300': '#2ECADB',
+    '400': '#17838F',
+  },
+};
+
 const lightTheme = {
   ...baseTheme,
   colors: {
+    ...commonColors,
     background: '#fff',
     heading: '#000',
+    headingBg: '#030E0F',
     text: '#3B454E',
     preFormattedText: 'rgb(245, 247, 249)',
-    link: '#1000EE',
+    link: '#DB4F39',
+    accent: '#DB4F39',
   },
 };
 
 const darkTheme = {
   ...baseTheme,
   colors: {
-    background: '#001933',
+    ...commonColors,
+    background: '#030E0F',
     heading: '#fff',
+    headingBg: '#030E0F',
     text: '#fff',
     preFormattedText: '#000',
-    link: '#1ED3C6',
+    link: '#E07462',
+    accent: '#E07462',
   },
 };
 

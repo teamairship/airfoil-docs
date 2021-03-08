@@ -65,7 +65,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
             tweetText
             logo {
               link
-              image
             }
             headerLinks {
               link
@@ -86,7 +85,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
 
       const {
         site: {
-          siteMetadata: { headerTitle, githubUrl, helpUrl, tweetText, logo, headerLinks },
+          siteMetadata: { githubUrl, helpUrl, tweetText, logo, headerLinks },
         },
       } = data;
 
@@ -99,14 +98,11 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
               <Link to={finalLogoLink} className={'navBarBrand'}>
                 <img
                   className={'img-responsive displayInline'}
-                  src={logo.image !== '' ? logo.image : logoImg}
+                  // src={logo.image !== '' ? logo.image : logoImg}
+                  src={require('./images/airfoilLogo.png')}
                   alt={'logo'}
                 />
               </Link>
-              <div
-                className={'headerTitle displayInline'}
-                dangerouslySetInnerHTML={{ __html: headerTitle }}
-              />
             </div>
             {config.header.social ? (
               <ul
