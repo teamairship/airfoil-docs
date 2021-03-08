@@ -1,6 +1,6 @@
 ---
 title: 'Commands'
-metaTitle: 'Airfoil >> CLI Commands'
+metaTitle: 'Airfoil ✈︎ CLI Commands'
 metaDescription: 'Airfoil CLI Commands'
 ---
 

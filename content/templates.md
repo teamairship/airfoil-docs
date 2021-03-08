@@ -1,7 +1,7 @@
 ---
 title: 'Templates'
-metaTitle: 'Airfoil >> Schematics + Templates'
-metaDescription: 'Airfoil Schematics + Templates'
+metaTitle: 'Airfoil ✈︎ Schematics'
+metaDescription: 'Airfoil Schematics'
 ---
 
 # Airfoil Schematics
