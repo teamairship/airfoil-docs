@@ -47,16 +47,6 @@ ObjectiveC or Java code before.
 airfoil add appcenter # follow prompts
 ```
 
-# create component
-
-Creates a functional component, and files it away for you in the appropriate folder.
-
-Kitchen sink example:
-
-```bash
-airfoil
-```
-
 # version
 
 Bumps the app version.
