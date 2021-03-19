@@ -6,21 +6,6 @@ metaDescription: 'Airfoil CLI Commands'
 
 A few turbocharged commands to get your app off the ground.
 
-# new
-
-Initializes a new React Native project.
-
-#### Usage:
-
-```bash
-airfoil new myAwesomeApp
-airfoil new # prompts you for the <appName>
-airfoil init chuckNorrisNeedsNoCli # `init` alias for devs used to `react-native init <appName>`
-```
-
-This command installs needed dependencies as well as sets up a minimal
-directory structure.
-
 # add env
 
 Adds ENV vars to your React Native app. Updates the following files in one go:
@@ -60,6 +45,16 @@ ObjectiveC or Java code before.
 
 ```bash
 airfoil add appcenter # follow prompts
+```
+
+# create component
+
+Creates a functional component, and files it away for you in the appropriate folder.
+
+Kitchen sink example:
+
+```bash
+airfoil
 ```
 
 # version
