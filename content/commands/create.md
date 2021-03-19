@@ -52,7 +52,7 @@ Results in:
 ```
 .
 └── components/
-    ├── auth/
+    ├── profile/
     │   └── Avatar/
     │       └── Avatar.tsx
     └── common
