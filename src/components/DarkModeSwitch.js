@@ -58,7 +58,7 @@ const StyledSwitch = styled('div')`
   }
 
   input:checked + .slider {
-    background: linear-gradient(to right, #e6523c, #db4f39);
+    background: linear-gradient(to right, #f3b2a8, #db4f39);
   }
 
   input:checked + .slider:before {
@@ -80,16 +80,32 @@ const StyledSwitch = styled('div')`
   }
 `;
 
-export const DarkModeSwitch = withTheme(({ isDarkThemeActive, toggleActiveTheme }) => (
-  <StyledSwitch>
-    <label id="switch" className="switch">
-      <input
-        type="checkbox"
-        id="slider"
-        onChange={toggleActiveTheme}
-        checked={isDarkThemeActive ? false : true}
-      />
-      <span className="slider round"></span>
-    </label>
-  </StyledSwitch>
-));
+const CSS_CLASS_DARK_MODE = 'darkMode';
+
+const toggleBodyClass = isDarkThemeActive => {
+  if (!document.body) return;
+  if (isDarkThemeActive) {
+    document.body.classList.add(CSS_CLASS_DARK_MODE);
+  } else {
+    document.body.classList.remove(CSS_CLASS_DARK_MODE);
+  }
+};
+
+export const DarkModeSwitch = withTheme(({ isDarkThemeActive, toggleActiveTheme }) => {
+  React.useEffect(() => {
+    toggleBodyClass(isDarkThemeActive);
+  }, [isDarkThemeActive]);
+  return (
+    <StyledSwitch>
+      <label id="switch" className="switch">
+        <input
+          type="checkbox"
+          id="slider"
+          onChange={toggleActiveTheme}
+          checked={isDarkThemeActive ? false : true}
+        />
+        <span className="slider round"></span>
+      </label>
+    </StyledSwitch>
+  );
+});

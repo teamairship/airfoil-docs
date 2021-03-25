@@ -257,7 +257,7 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #fff;
+    background-color: #ec422c;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -380,6 +380,14 @@ export const baseStyles = css`
     color: #001934;
     display: flex;
     align-items: center;
+
+    .darkMode & {
+      background-color: #061d1f;
+
+      a {
+        color: #fff;
+      }
+    }
   }
 
   .sideBarShow {
