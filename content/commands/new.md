@@ -1,4 +1,4 @@
-`airfoil [new | n | init]`
+`airfoil [new | n | init] [nameOfProject]`
 
 Initializes a new React Native project.
 

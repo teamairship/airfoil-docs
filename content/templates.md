@@ -15,7 +15,7 @@ A minimalist app built on Axios and the Context API.
 
 ### [PROPELLER](https://github.com/teamairship/airfoil-schematics/tree/main/templates/propeller)
 
-_COMING SOON_ - A bare-bones implementation of Redux and REST.
+_COMING SOON_ - A bare-bones implementation of Redux (using Redux Toolkit) and REST.
 
 ### [JET](https://github.com/teamairship/airfoil-schematics/tree/main/templates/jet)
 
