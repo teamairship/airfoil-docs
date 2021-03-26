@@ -25,11 +25,11 @@ const lightTheme = {
     ...commonColors,
     background: '#fff',
     heading: '#000',
-    headingBg: '#030E0F',
+    headingBg: '#f8f8f8',
     text: '#3B454E',
     preFormattedText: 'rgb(245, 247, 249)',
-    link: '#DB4F39',
-    accent: '#DB4F39',
+    link: '#ff2a13',
+    accent: '#ff2a13',
   },
 };
 
