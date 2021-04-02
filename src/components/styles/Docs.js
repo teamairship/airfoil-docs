@@ -64,10 +64,10 @@ export const StyledMainWrapper = styled.div`
   }
 
   code {
-    border: 1px solid #ede7f3;
-    border-radius: 4px;
+    border-radius: 2px;
     padding: 2px 6px;
     font-size: 0.9375em;
+    white-space: nowrap;
 
     background: ${props => props.theme.colors.background};
   }

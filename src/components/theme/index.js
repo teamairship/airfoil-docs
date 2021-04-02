@@ -37,10 +37,10 @@ const darkTheme = {
   ...baseTheme,
   colors: {
     ...commonColors,
-    background: '#030E0F',
+    background: '#101A1B',
     heading: '#fff',
     headingBg: '#030E0F',
-    text: '#fff',
+    text: '#E8E1E1',
     preFormattedText: '#000',
     link: '#E07462',
     accent: '#E07462',
