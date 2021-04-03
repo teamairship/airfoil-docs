@@ -26,6 +26,7 @@ airfoil add env # if args omitted -> prompts to get ENV key, value
 | `--comment` | [`-c`]           | add a comment for this ENV var                                    |
 | `--dry`     | [`-d`]           | perform a dry test run (print Git diff without permanent changes) |
 | `--verbose` | [`-v`]           | print more detailed logs                                          |
+| `--debug`   | []               | print all stdout for debugging                                    |
 
 ### Rationale
 
@@ -57,6 +58,7 @@ airfoil add appcenter # follow prompts
 | ----------- | ------ | ----------------------------------------------------------------- |
 | `--dry`     | [`-d`] | perform a dry test run (print Git diff without permanent changes) |
 | `--verbose` | [`-v`] | print more detailed logs                                          |
+| `--debug`   | []     | print all stdout for debugging                                    |
 
 ### Rationale
 

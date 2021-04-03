@@ -17,7 +17,8 @@ airfoil convert svg --cleanup # to remove app/assets/svg after successful conver
 
 ### Args:
 
-| Arg         | Aliases | Description                                 |
-| ----------- | ------- | ------------------------------------------- |
-| `--cleanup` | []      | remove source `.svg` files after conversion |
-| `--verbose` | [`-v`]  | print more detailed logs                    |
+| Flag        | Alias  | Explanation                                 |
+| ----------- | ------ | ------------------------------------------- |
+| `--cleanup` | []     | remove source `.svg` files after conversion |
+| `--verbose` | [`-v`] | print more detailed logs                    |
+| `--debug`   | []     | print all stdout for debugging              |

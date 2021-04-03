@@ -19,6 +19,7 @@ airfoil version -u 4.5.6 # update exact version
 | ----------- | ------ | ------------------------------- |
 | `--update`  | [`-u`] | provide an exact version number |
 | `--verbose` | [`-v`] | print more detailed logs        |
+| `--debug`   | []     | print all stdout for debugging  |
 
 ### Rationale
 

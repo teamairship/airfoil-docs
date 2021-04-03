@@ -12,3 +12,9 @@ airfoil new myAwesomeApp
 airfoil new # prompts you for the <appName>
 airfoil init chuckNorrisNeedsNoCli # `init` alias for devs used to `react-native init <appName>`
 ```
+
+### Options
+
+| Flag      | Explanation                    |
+| --------- | ------------------------------ |
+| `--debug` | print all stdout for debugging |
