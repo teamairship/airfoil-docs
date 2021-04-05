@@ -257,7 +257,12 @@ export const baseStyles = css`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #ec422c;
+    background-color: #ececec;
+    background: rgb(251, 251, 251);
+    background: radial-gradient(circle, rgba(251, 251, 251, 1) 0%, rgba(236, 236, 236, 1) 100%);
+    // more intense gradient background:
+    // background: rgba(253, 29, 29, 1);
+    // background: linear-gradient(90deg, rgba(253, 29, 29, 1) 0%, rgba(252, 176, 69, 1) 100%);
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -273,6 +278,9 @@ export const baseStyles = css`
     padding: 15px;
     position: relative;
     height: 80px;
+  }
+  .darkMode .navBarDefault {
+    background: #031011;
   }
   .navBarHeader {
     min-width: 335px;
@@ -589,6 +597,7 @@ export const baseStyles = css`
   /* tables.css */
   table {
     padding: 0;
+    border-collapse: collapse;
   }
 
   table tr {
@@ -683,7 +692,7 @@ export const baseStyles = css`
   }
 
   .heading1 {
-    font-size: 26px;
+    font-size: 32px;
     font-weight: 800;
     line-height: 1.5;
     margin-bottom: 16px;
