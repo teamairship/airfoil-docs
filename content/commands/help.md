@@ -1,7 +1,9 @@
-`airfoil help`
+---
+title: 'Help'
+metaTitle: 'Airfoil ✈︎ Help'
+metaDescription: 'Airfoil command: help'
+---
 
-# help
-
-`help (h)`
+`airfoil [help | h]`
 
 List all available Airfoil commands

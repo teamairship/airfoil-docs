@@ -1,3 +1,9 @@
+---
+title: 'New'
+metaTitle: 'Airfoil ✈︎ New'
+metaDescription: 'Airfoil command: new'
+---
+
 `airfoil [new | n | init] [nameOfProject]`
 
 Initializes a new React Native project.
