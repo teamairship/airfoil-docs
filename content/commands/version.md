@@ -1,3 +1,9 @@
+---
+title: 'Version'
+metaTitle: 'Airfoil ✈︎ Version'
+metaDescription: 'Airfoil command: version'
+---
+
 `airfoil version [major | minor | patch]`
 
 Bumps the app version.

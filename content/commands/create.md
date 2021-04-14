@@ -1,3 +1,9 @@
+---
+title: 'Create'
+metaTitle: 'Airfoil ✈︎ Create'
+metaDescription: 'Airfoil command: create'
+---
+
 `airfoil [create | c]`
 
 Creates a file and places it in the correct directory. Currently supported options:

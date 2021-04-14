@@ -1,3 +1,9 @@
+---
+title: 'Convert'
+metaTitle: 'Airfoil ✈︎ Convert'
+metaDescription: 'Airfoil command: convert'
+---
+
 `airfoil convert [svg]`
 
 # convert svg

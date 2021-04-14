@@ -30,7 +30,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: ['/commands', '/templates'],
+    forcedNavOrder: ['/getting-started', '/commands', '/templates'],
     collapsedNav: [
       // '/codeblock', // add trailing slash if enabled above
     ],

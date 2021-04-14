@@ -1,3 +1,9 @@
+---
+title: 'Add'
+metaTitle: 'Airfoil ✈︎ Add'
+metaDescription: 'Airfoil command: add'
+---
+
 `airfoil add [env | appcenter | adr]`
 
 # add env
