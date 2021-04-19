@@ -1,10 +1,10 @@
 ---
-title: 'New'
-metaTitle: 'Airfoil ✈︎ New'
+title: 'Init'
+metaTitle: 'Airfoil ✈︎ Init'
 metaDescription: 'Airfoil command: new'
 ---
 
-`airfoil [new | n | init] [nameOfProject]`
+`airfoil [init | i | new] [nameOfProject]`
 
 Initializes a new React Native project.
 
@@ -14,9 +14,8 @@ directory structure.
 ### Usage
 
 ```bash
-airfoil new myAwesomeApp
-airfoil new # prompts you for the <appName>
-airfoil init chuckNorrisNeedsNoCli # `init` alias for devs used to `react-native init <appName>`
+airfoil init myAwesomeApp
+airfoil init # prompts you for the <appName>
 ```
 
 ### Options
