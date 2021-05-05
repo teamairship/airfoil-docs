@@ -4,7 +4,7 @@ metaTitle: 'Airfoil ✈︎ Add'
 metaDescription: 'Airfoil command: add'
 ---
 
-`airfoil add [env | appcenter | adr]`
+`airfoil add [env | appcenter | adr | keystore]`
 
 # add env
 
@@ -86,3 +86,21 @@ Add an Architecture Design Record (ADR).
 airfoil add adr # follow prompts
 airfoil add adr "Choose Cognito for Auth" # specify ADR title as arg1
 ```
+
+# add keystore
+
+Add an Android keystore.
+
+This command automatically generates credentials and generates a `.keystore` file,
+and instructs the developer as to next steps (saving credentials in password manager, etc.).
+
+### Usage:
+
+```bash
+airfoil add keystore
+```
+
+### Rationale:
+
+Typos and syntax errors in the Certificate Authority can lead to App Center builds not working.
+Automating this process removes some of the human error involved in generating keystores.
