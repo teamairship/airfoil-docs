@@ -33,7 +33,7 @@
     "emotion-theming": "^10.0.19",
     "gatsby": "^2.18.10",
     "gatsby-link": "^2.2.27",
-    "gatsby-plugin-algolia": "^0.5.0",
+    "gatsby-plugin-algolia": "^0.19.0",
     "gatsby-plugin-emotion": "^4.1.18",
     "gatsby-plugin-gtag": "^1.0.12",
     "gatsby-plugin-layout": "^1.1.18",
