@@ -4,7 +4,7 @@ metaTitle: 'Airfoil ✈︎ Add'
 metaDescription: 'Airfoil command: add'
 ---
 
-`airfoil add [env | appcenter | adr | keystore]`
+`airfoil add [env | appcenter | adr | keystore | appicon]`
 
 # add env
 
@@ -104,3 +104,28 @@ airfoil add keystore
 
 Typos and syntax errors in the Certificate Authority can lead to App Center builds not working.
 Automating this process removes some of the human error involved in generating keystores.
+
+&nbsp;
+
+<br/>
+
+# add appicon
+
+Generate app icons for iOS and Android from a single .png file.
+
+### Usage:
+
+- First upload `AppIcon.png` to your project root
+  - File name must exactly match "AppIcon.png"
+  - Image must be at least 1024x1024
+  - Image must be square
+
+Then run:
+
+```bash
+airfoil add appicon
+```
+
+### Rationale:
+
+Adding correctly-sized app icons to their appropriate places is tedious and error-prone. This command greatly simplifies this process.
